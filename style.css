@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(196, 196, 183);
+}
+
+
+.container{
+    margin:300px 0 0 400px ;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+
+.box{
+    background-color: blue;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    transition: 200ms ease-in;
+    margin-right: 10px;
+    display: flex;
+    position: absolute;
+}
+
+
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(4, 4, 70);
+    transition: 200ms ease-in;
+    margin-top: -20px;
+}
+
+
+.text1{
+    background-color: brown;
+    margin-right: 10px;
+    margin-top: 130px;
+    width: 250px;
+    text-align: center;
+
+}
+
+
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 97px;
+}
+
+
+.box1{
+    margin-left: 30px;
+}
